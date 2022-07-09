@@ -6,7 +6,7 @@ class constants:
 
     # SIMULATION SETTINGS
     EPISODES = 25000 # Total Number of Episodes
-    SHOW = 5000 # Show the simulation after every SHOW episodes
+    SHOW = 2000 # Show the simulation after every SHOW episodes
     obsevation = [25, 30, 45, 50] # Number of steps per observation
     observation_step_size = np.array([0.25, 0.2, 0.01, 0.15]) # Step size per obsevarion
     adjustment = np.array([15,10,1,10]) # Required to make the discrete state effective
